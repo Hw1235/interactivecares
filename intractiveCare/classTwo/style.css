@@ -3,3 +3,54 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/* header area start */
+.header-area {
+  /* background-color: rgb(130, 243, 0); */
+  padding: 300;
+  display: flex; /* Make the header a flex container */
+  justify-content: space-between; /* Space between logo and nav */
+  align-items: center; /* Vertically center items */
+  font-family: "Poppins", sans-serif;
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 23px;
+  letter-spacing: 1.5px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.header-area nav ul {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-area nav ul a {
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.header-area nav a {
+  margin: 0;
+  text-align: end;
+  padding: 10;
+}
+.header-area nav ul a:hover {
+  color: rgb(0, 236, 158);
+  border-radius: 5px;
+}
+.header-area nav a[aria-label="Search"] {
+  margin-right: 600; /* Adds space between the last nav link and the search icon */
+}
+/* header area end */
+
+/*Paragraph Are start*/
