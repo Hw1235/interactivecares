@@ -54,3 +54,247 @@ nav {
 /* header area end */
 
 /*Paragraph Are start*/
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  /* background-color: rgb(175, 124, 226); */
+}
+.hero {
+  background-color: aqua;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1440px;
+  height: 974px;
+  padding: 0 65px;
+  z-index: 70;
+}
+.hero-area {
+  display: flex;
+  height: 95vh;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 100px;
+}
+span {
+  display: block;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.headLine {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 90px;
+  color: #094b72;
+}
+.headLinePara {
+  font-size: 24px;
+}
+.hero-btn {
+  background-color: #094b72;
+  width: 190px;
+  height: 80px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.hero-btn:hover {
+  background-color: burlywood;
+  transition-duration: 2s;
+}
+a:hover {
+  color: tomato;
+  transition-duration: 0.5s;
+}
+.btn {
+  color: rgb(240, 48, 0);
+  font-family: Plus jakarta sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22.48px;
+  letter-spacing: 8%;
+}
+.companies {
+  display: flex;
+  flex-direction: column;
+  height: 22%;
+  gap: 10px;
+  padding: 10px 0;
+  justify-content: space-evenly;
+}
+.companie-para {
+  font-family: Plus jakarta sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30.91px;
+  letter-spacing: 4%;
+}
+/* company-logo */
+.company-logo {
+  display: inline-flex;
+  /* height: 15vh; */
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* .company-top {
+  display: inline-flex;
+  justify-content: stretch;
+}
+.company-bottom {
+  display: flex;
+  justify-items: center;
+} */
+.service {
+  background-color: blueviolet;
+  width: 1440px;
+  height: 786px;
+  display: flex;
+  flex-direction: column; /* Adjust as needed */
+  align-items: center; /* Adjust as needed */
+  justify-content: center; /* Adjust as needed */
+}
+.services-area {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.service-text-left {
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 63.98px;
+  letter-spacing: 0.32px;
+  /* color: #2d2f30; */
+  color: antiquewhite;
+}
+.service-text-para {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: chartreuse;
+}
+.service-right {
+  display: flex;
+  gap: 25px;
+}
+.card-1 {
+  font-family: sans-serif;
+  max-height: 5px;
+  max-width: 2;
+}
+.envirn-1 {
+  font-family: Playfair Display;
+  font-weight: 400px;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  color: rgb(250, 81, 3);
+}
+.service-1,
+.service-2,
+.service-3,
+.service-4 {
+  width: 256px;
+  height: 253px;
+  color: red;
+  top: 126px;
+  left: 639px;
+  gap: 18px;
+  border-radius: 8px;
+  padding: 24px;
+  background: #fcfc;
+  box-shadow: 0px 18px 58px 16px #000000;
+}
+.counter {
+  background: #1281a6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 356px;
+  gap: 80px;
+}
+.count-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-headline {
+  font-family: Playfair Display;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.5%;
+  text-align: center;
+  color: #ffffff;
+}
+.counter-1 {
+  display: flex;
+  width: 825;
+  height: 96;
+  top: 2015px;
+  left: 307.5px;
+  gap: 50px;
+}
+.count {
+  display: flex;
+  /* background-color: aquamarine; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.number-30 {
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffff;
+}
+.people {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.3%;
+  text-align: center;
+  color: #ffffff;
+}
+.testimonial {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1440px;
+  height: 610px;
+  top: 2166px;
+  left: 3px;
+  /* background: #ffffff; */
+  gap: 25px;
+}
+.testimonial-title {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #06b672;
+}
+.testimonial {
+  display: flex;
+  gap: 20px;
+}
