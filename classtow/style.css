@@ -7,12 +7,13 @@
   padding: 0;
   margin: 0;
 }
-body {
+/* body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
+
 .hader-area {
   display: flex;
   flex-direction: column;
@@ -71,16 +72,23 @@ a:hover {
 */
 .hero-area {
   width: 1440px;
-  height: 924px;
+  height: 974px;
+  top: 99px;
   background-color: #f9f8f9;
-  /* background-size: cover; */
 }
+.hero-content {
+  width: 891px;
+  background-color: blue;
+  height: 100px;
+}
+
 .title {
   font-family: "Playfair Display", serif;
-  padding-top: 200px;
+  padding-top: 149px;
   padding-left: 50px;
-  font-size: 80px;
-  height: 216;
+  font-size: 90px;
+  height: 728px;
+  width: 700;
   top: 249px;
   left: 55px;
   color: #094b72;
@@ -163,7 +171,8 @@ a:hover {
   background-repeat: no-repeat;
   position: absolute;
   top: 49px;
-  left: 800px;
+  /* left: 800px; */
+  right: 0;
   background-position: to center;
 }
 .service-box {
